@@ -1,0 +1,38 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# Temporary files
+**/*.rs.bk
+**/*.swp
+**/*.swo
+
+# Dependency and IDE files
+/.idea/
+/.vscode/
+/target/
+/Cargo.lock
+
+# Rustup and Cargo
+/.cargo/
+/.rustup/
+
+# Debugging and profiling
+*.profdata
+*.dSYM/
+/*.log
+
+# Binary output
+*.exe
+*.out
+*.app
+*.bin
+
+# Tests and coverage
+/tests/target/
+tests/tmp/
+
+# Raspberry Pi specific
+*.so
+*.a
+*.o
