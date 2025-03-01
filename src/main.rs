@@ -22,7 +22,7 @@ fn main() {
     }
 
     println!("Testing Piezo Buzzer...");
-    let piezo = Piezo::new(Channel::Pwm0);
+    let piezo = Piezo::new(Channel::Pwm1);
     piezo.beep(1000.0, 0.5, true);
     thread::sleep(Duration::from_secs(1));
     piezo.beep(500.0, 1.0, false);
